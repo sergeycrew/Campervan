@@ -1,12 +1,12 @@
 import {
   FilterWrap,
   LocationWrap,
-  Location,
   LocationInputWrapper,
   Form,
   LocationInput,
   Label,
   Icon,
+  FilterText,
 } from "./Filter.styled";
 import sprite from "assets/Images/sprite.svg";
 
@@ -14,17 +14,17 @@ export const Filter = () => {
   return (
     <FilterWrap>
       <LocationWrap>
-        <Location>Location</Location>
         <LocationInputWrapper>
           <Form>
+            <Label>Location</Label>
             <LocationInput />
-            <Label />
             <Icon>
-              <use href={`${sprite}#map-pin-2`} aria-label="pin icon"></use>
+              <use href={`${sprite}#map-pin`} aria-label="pin icon"></use>
             </Icon>
           </Form>
         </LocationInputWrapper>
       </LocationWrap>
+      <FilterText>Filters</FilterText>
     </FilterWrap>
   );
 };
