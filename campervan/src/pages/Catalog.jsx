@@ -1,7 +1,10 @@
+import { Container } from "../styles/container";
+import { Filter } from "components/Filter/Filter";
+
 export const Catalog = () => {
   return (
-    <div>
-      <h2>Catalog</h2>
-    </div>
+    <Container>
+      <Filter />
+    </Container>
   );
 };
