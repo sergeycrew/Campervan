@@ -19,5 +19,6 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
+          publish_dir: ./home/runner/work/Campervan/build
           branch: gh-pages
-          folder: build
+          
