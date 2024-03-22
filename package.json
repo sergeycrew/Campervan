@@ -2,7 +2,7 @@
   "name": "campervan",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://sergeycrew.github.io/Campervan/",
+  "homepage": "https://sergeycrew.github.io/Campervan",
   "type": "module",
   "scripts": {
     "dev": "vite",
