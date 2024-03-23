@@ -25,7 +25,7 @@ export const VehicleEquipment = () => {
           <ListItem>
             <FilterButton
               sprite={sprite}
-              id={"automatic"}
+              id={"transmission"}
               text={"Automatic"}
               width={"32px"}
               height={"32px"}
@@ -43,7 +43,7 @@ export const VehicleEquipment = () => {
           <ListItem>
             <FilterButton
               sprite={sprite}
-              id={"tv"}
+              id={"TV"}
               text={"TV"}
               width={"32px"}
               height={"32px"}
@@ -66,7 +66,7 @@ export const VehicleEquipment = () => {
           <ListItem>
             <FilterButton
               sprite={sprite}
-              id={"Van"}
+              id={"panelTruck"}
               text={"Van"}
               width={"40px"}
               height={"28px"}
@@ -75,7 +75,7 @@ export const VehicleEquipment = () => {
           <ListItem>
             <FilterButton
               sprite={sprite}
-              id={"van-integrated"}
+              id={"fullyIntegrated"}
               text={"Fully Integrated"}
               width={"40px"}
               height={"28px"}

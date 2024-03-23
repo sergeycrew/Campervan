@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const CustomButton = styled.button`
   width: 173px;
   height: 56px;
-  padding: 16px 60px;
-  align-items: center;
+  padding: 10px 16px;
+  text-align: center;
   border-radius: 1.5rem;
   border-radius: 200px;
   box-sizing: border-box;
